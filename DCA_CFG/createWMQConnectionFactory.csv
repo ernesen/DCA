@@ -1,0 +1,2 @@
+Cluster_Name,Queue_Name,JNDI_Name,Qmgr_Name,Qmgr_Channel,Conname_List
+TEMP_ONLINE,"Queue Connection Factory for BatchProcess",jms/eaiqm_qcf,RMS_QM,MMMOP.SVRCONN,sermsmq01.cpall.co.th(1414)|sermsmq02.cpall.co.th(1414)

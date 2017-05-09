@@ -1,0 +1,15 @@
+ClusterName,LogDirectory
+DCCDC_ONLINE,/wasappshare/Online/CDC/${WAS_SERVER_NAME}
+DCRCDC_ONLINE,/wasappshare/Online/RCDC/${WAS_SERVER_NAME}
+DCPDC_ONLINE,/wasappshare/Online/PDC/${WAS_SERVER_NAME}
+DCODC_ONLINE,/wasappshare/Online/ODC/${WAS_SERVER_NAME}
+DCGRP_ONLINE,/wasappshare/Online/GR/${WAS_SERVER_NAME}
+DCMH_ONLINE,/wasappshare/Online/MH/${WAS_SERVER_NAME}
+DCBDC_ONLINE,/wasappshare/Online/BDC/${WAS_SERVER_NAME}
+DCCDC_SIB,/wasappshare/SIB/CDC
+DCRCDC_SIB,/wasappshare/SIB/RCDC
+DCPDC_SIB,/wasappshare/SIB/PDC
+DCODC_SIB,/wasappshare/SIB/ODC
+DCGRP_SIB,/wasappshare/SIB/GR
+DCMH_SIB,/wasappshare/SIB/MH
+DCBDC_SIB,/wasappshare/SIB/BDC

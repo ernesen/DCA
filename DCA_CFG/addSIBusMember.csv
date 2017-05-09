@@ -1,0 +1,8 @@
+BusName,TargetArgs,JNDIName,AuthAlias,SchemaName
+WTS.CDC.BUS,DCCDC_SIB, jdbc/WASME,sewtsmn01DmgrNode01/wascdc,wtscdc
+WTS.RCDC.BUS,DCRCDC_SIB, jdbc/WASME,sewtsmn01DmgrNode01/wasrcdc,wtsrcdc
+WTS.PDC.BUS,DCPDC_SIB, jdbc/WASME,sewtsmn01DmgrNode01/waspdc,wtspdc
+WTS.ODC.BUS,DCODC_SIB, jdbc/WASME, sewtsmn01DmgrNode01/wasfdc,wtsodc
+WTS.GRP.BUS,DCGRP_SIB, jdbc/WASME,sewtsmn01DmgrNode01/wasgrp,wtsgrp
+WTS.MH.BUS,DCMH_SIB, jdbc/WASME,sewtsmn01DmgrNode01/wasmh,wtsmh
+WTS.BDC.BUS,DCBDC_SIB, jdbc/WASME, sewtsmn01DmgrNode01/wasbdc,wtsbdc

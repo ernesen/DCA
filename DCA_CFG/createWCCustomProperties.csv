@@ -1,0 +1,2 @@
+ServerName,WC_Properties,VALUE
+TEMP_ONLINE,com.ibm.ws.webcontainer.maxParamPerRequest,20000

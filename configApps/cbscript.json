@@ -1,0 +1,71 @@
+[
+   {
+      "command": "\/tmp\/configApps\/configApps.sh",
+      "description": "This script configures the WebSphere Application Server details",
+      "execmode": 3,
+      "filename": "configApps.zip",
+      "keys": [
+         {
+            "locked": false,
+            "required": false,
+            "scriptkey": "DMGR_HOST"
+         },
+         {
+            "locked": false,
+            "required": true,
+            "scriptdefaultvalue": "passw0rd",
+            "scriptkey": "HTTPPASS",
+            "scriptvalue": "passw0rd"
+         },
+         {
+            "locked": false,
+            "required": true,
+            "scriptdefaultvalue": "on",
+            "scriptkey": "_DEBUG",
+            "scriptvalue": "on"
+         },
+         {
+            "locked": false,
+            "required": true,
+            "scriptdefaultvalue": "DEV",
+            "scriptkey": "ENV",
+            "scriptvalue": "DEV"
+         },
+         {
+            "locked": false,
+            "required": true,
+            "scriptdefaultvalue": "10.160.126.16\/Shared\/DCA_CFG_STA.zip",
+            "scriptkey": "REMOTE_SERVER_DOWNLOAD",
+            "scriptvalue": "10.160.126.16\/Shared\/DCA_CFG_STA.zip"
+         },
+         {
+            "locked": false,
+            "required": true,
+            "scriptdefaultvalue": "10.160.126.16",
+            "scriptkey": "NFS_HOST",
+            "scriptvalue": "10.160.126.16"
+         },
+         {
+            "locked": false,
+            "required": true,
+            "scriptdefaultvalue": "\/opt\/CFG",
+            "scriptkey": "NFS_MOUNT",
+            "scriptvalue": "\/opt\/CFG"
+         },
+         {
+            "locked": false,
+            "required": true,
+            "scriptdefaultvalue": "false",
+            "scriptkey": "HARDENING",
+            "scriptvalue": "false"
+         }
+      ],
+      "location": "\/tmp\/configApps",
+      "log": "\/tmp\/configApps\/configApps.log",
+      "name": "DCA Configure WAS applications",
+      "ostype": "linux\/unix",
+      "timeout": 43200000,
+      "type": "APPLICATION",
+      "version": "1.0"
+   }
+]

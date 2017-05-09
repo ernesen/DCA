@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><!--HTTP server plugin config file for the webserver WTS_Cell.sewtswiNodeWI_5.@@memberName@@ generated on 2015.12.30 at 10:25:38 AM ICT-->
+<Config ASDisableNagle="false" AcceptAllContent="true" AppServerPortPreference="HostHeader" ChunkedResponse="false" FIPSEnable="false" FailoverToNext="false" HTTPMaxHeaders="300" IISDisableFlushFlag="false" IISDisableNagle="false" IISPluginPriority="High" IgnoreDNSFailures="false" KillWebServerStartUpOnParseErr="false" MarkBusyDown="false" OS400ConvertQueryStringToJobCCSID="false" RefreshInterval="60" ResponseChunkSize="64" SSLConsolidate="true" StrictSecurity="false" TrustedProxyEnable="false" VHostMatchingCompat="false">
+   <Log LogLevel="Error" Name="/opt/IBM/WebSphere/Plugins/logs/@@memberName@@/http_plugin.log"/>
+   <Property Name="ESIEnable" Value="true"/>
+   <Property Name="ESIMaxCacheSize" Value="1024"/>
+   <Property Name="ESIInvalidationMonitor" Value="false"/>
+   <Property Name="ESIEnableToPassCookies" Value="false"/>
+   <Property Name="ESICacheidFull" Value="false"/>
+   <Property Name="PostSizeLimit" Value="-1"/>
+   <Property Name="PostBufferSize" Value="0"/>
+   <Property Name="PluginInstallRoot" Value="/opt/IBM/WebSphere/Plugins/"/>
+   <Property Name="Keyfile" Value="/opt/IBM/WebSphere/Plugins/config/@@memberName@@/plugin-key.kdb"/>
+   <Property Name="Stashfile" Value="/opt/IBM/WebSphere/Plugins/config/@@memberName@@/plugin-key.sth"/>
+   <RequestMetrics armEnabled="false" loggingEnabled="false" rmEnabled="false" traceLevel="HOPS">
+      <filters enable="false" type="URI">
+         <filterValues enable="false" value="/snoop"/>
+         <filterValues enable="false" value="/hitcount"/>
+      </filters>
+      <filters enable="false" type="SOURCE_IP">
+         <filterValues enable="false" value="255.255.255.255"/>
+         <filterValues enable="false" value="254.254.254.254"/>
+      </filters>
+      <filters enable="false" type="JMS">
+         <filterValues enable="false" value="destination=aaa"/>
+      </filters>
+      <filters enable="false" type="WEB_SERVICES">
+         <filterValues enable="false" value="wsdlPort=aaa:op=bbb:nameSpace=ccc"/>
+      </filters>
+   </RequestMetrics>
+</Config>

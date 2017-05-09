@@ -1,0 +1,2 @@
+Cluster,WorkManagerName,JNDIName,MaxThreads,NumAlarmThreads,isGrowable,workReqQFullAction,workReqQSize
+TEMP_ONLINE,WorkManager for Scheduler,wm/SchedulerWM,10,10,false,1,1000

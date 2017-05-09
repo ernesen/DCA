@@ -1,0 +1,24 @@
+[
+   {
+      "command": "\/tmp\/deployApps\/deployApps.sh ",
+      "description": "This scripts enchanted DCA DeployApps version 1.0 Note. 1.Change path DCA_CFG_<service name> to DCA_CFG, 2. For blank record use , ,(space bar between commas)",
+      "execmode": 3,
+      "filename": "deployApps.zip",
+      "keys": [
+         {
+            "locked": false,
+            "required": true,
+            "scriptdefaultvalue": "10.160.126.16\/Shared\/APP",
+            "scriptkey": "SERVER_INSTALL_APP",
+            "scriptvalue": "10.160.126.16\/Shared\/APP"
+         }
+      ],
+      "location": "\/tmp\/deployApps",
+      "log": "\/tmp\/deployApps\/deployApps_log.out",
+      "name": "DCA  Deploys WAS applications",
+      "ostype": "linux\/unix",
+      "timeout": 43200000,
+      "type": "APPLICATION",
+      "version": "2.0"
+   }
+]

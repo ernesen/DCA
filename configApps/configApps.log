@@ -1,0 +1,9 @@
+2016-04-30 18:41:34: ********** Logging Environment Variables **********
+2016-04-30 18:41:34: ***************************************************
+2016-04-30 18:41:34: ============== /tmp/configApps/configApps.sh ======================
+2016-04-30 18:41:34: _initialSetting
+2016-04-30 18:41:34: Set permissions
+2016-04-30 18:41:34: The specified file /tmp/DCA_CFG/configApps.csv does not exist please ensure that it exits before continuing
+2016-04-30 18:41:35: version of current code release 	Sat Apr 30 18:41:31 ICT 2016 of file: /tmp/configApps/configApps.sh
+2016-04-30 18:42:43: _postSetting
+2016-04-30 18:42:43: Set permissions to virtuser for the following directories /tmp/DCA_CFG | /tmp/configApps and /opt/IBM/WebSphere/Profiles/DefaultDmgr01

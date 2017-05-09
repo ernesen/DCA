@@ -1,0 +1,2 @@
+ClusterName,ScheName,PollInterval,TablePrefix,DatasourceJNDIName,DatasourceAlias,JndiName,WorkManager
+TEMP_ONLINE,Scheduler for BatchProcess,30,BP_,jdbc/BatchProcess,sermsmn01ManagerNode01/mopusr,resource/Scheduler,wm/SchedulerWM

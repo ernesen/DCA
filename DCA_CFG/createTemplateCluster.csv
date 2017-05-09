@@ -1,0 +1,4 @@
+GroupName,ClusterName
+TEMP_ONLINE,ONLINENodeGroup
+TEMP_PROCESS,PROCESSNodeGroup
+TEMP_SIB,PROCESSNodeGroup

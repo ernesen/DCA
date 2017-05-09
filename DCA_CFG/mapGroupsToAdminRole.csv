@@ -1,0 +1,11 @@
+Group_Name,Role_Name
+DataCenter Team,operator
+DataCenter Team,deployer
+DataCenter Team,monitor
+techsupport,configurator
+techsupport,operator
+techsupport,deployer
+techsupport,monitor
+techsupport,administrator
+techsupport,iscadmins
+techsupport,adminsecuritymanager

@@ -1,0 +1,5 @@
+User_Name,Role_Name
+jenkins,monitor
+jenkins,operator
+jenkins,deployer
+wtsapp,monitor

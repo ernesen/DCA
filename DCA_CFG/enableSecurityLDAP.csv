@@ -1,0 +1,2 @@
+Primary_User,LDAP_Primary_Host,Bind_Password,LDAP_Port,LDAP_Server_Type,Base_DN,bindDN
+virtuser,tarldap.cpall.co.th,lbmTbNcvHf|bo,389,AD,o=adsLDAP,CN=gowasadmin

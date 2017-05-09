@@ -1,0 +1,5 @@
+ClusterName,SpecName,PropName,PropValue,PropType,PropDesc,Required
+DCCDC_PROCESS,mdb_eai_to_fs_allnonsap,connectionConcurrency,1,java.lang.String,connectionConcurrency,false
+DCCDC_PROCESS,mdb_eai_to_fs_allnonsap_txt,connectionConcurrency,1,java.lang.String,connectionConcurrency,false
+DCCDC_PROCESS,mdb_eai_to_fs_fi,connectionConcurrency,1,java.lang.String,connectionConcurrency,false
+DCCDC_PROCESS,mdb_eai_to_sta_cr,connectionConcurrency,1,java.lang.String,connectionConcurrency,false

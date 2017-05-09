@@ -1,0 +1,9 @@
+Scope,ScopeName,SymbolicName,Value
+Node,sepa1tt08Node01,UNIVERSAL_JDBC_DRIVER_PATH,/opt/IBM/WebSphere/AppServer/universalDriver/lib
+Node,sepa2tt01Node01,UNIVERSAL_JDBC_DRIVER_PATH,/opt/IBM/WebSphere/AppServer/universalDriver/lib
+Cell,RMOS_Cell,UNIVERSAL_JDBC_DRIVER_PATH,/opt/IBM/WebSphere/AppServer/universalDriver/lib
+Cluster,sewtsap04Node01,UNIVERSAL_JDBC_DRIVER_PATH,/opt/IBM/WebSphere/AppServer/universalDriver/lib
+Node,sepa1tt08Node01,DB2UNIVERSAL_JDBC_DRIVER_PATH,/opt/IBM/WebSphere/AppServer/universalDriver/lib
+Node,sepa2tt01Node01,DB2UNIVERSAL_JDBC_DRIVER_PATH,/opt/IBM/WebSphere/AppServer/universalDriver/lib
+Cluster,TEMP_ONLINE,DB2UNIVERSAL_JDBC_DRIVER_PATH,/opt/IBM/WebSphere/AppServer/universalDriver/lib
+Cluster,TEMP_PROCESS,DB2UNIVERSAL_JDBC_DRIVER_PATH,/opt/IBM/WebSphere/AppServer/universalDriver/lib

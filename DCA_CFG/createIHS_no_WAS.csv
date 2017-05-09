@@ -1,0 +1,15 @@
+Node_Name,WebServer_Name,Config_Dir,Web_Port,adminUserID,adminPasswd,Service_Name
+sepa1tt08Node01,Webserver_CDC,conf_cdc,8001,virtuser,virtuser@prd,cdc
+sepa2tt01Node01,Webserver_CDC,conf_cdc,8001,virtuser,virtuser@prd,cdc
+sepa1tt08Node01,Webserver_RCDC,conf_rcdc,8002,virtuser,virtuser@prd,rcdc
+sepa2tt01Node01,Webserver_RCDC,conf_rcdc,8002,virtuser,virtuser@prd,rcdc
+sepa1tt08Node01,Webserver_PDC,conf_pdc,8003,virtuser,virtuser@prd,pdc
+sepa2tt01Node01,Webserver_PDC,conf_pdc,8003,virtuser,virtuser@prd,pdc
+sepa1tt08Node01,Webserver_ODC,conf_odc,8004,virtuser,virtuser@prd,odc
+sepa2tt01Node01,Webserver_ODC,conf_odc,8004,virtuser,virtuser@prd,odc
+sepa1tt08Node01,Webserver_GR,conf_gr,8005,virtuser,virtuser@prd,gr
+sepa2tt01Node01,Webserver_GR,conf_gr,8005,virtuser,virtuser@prd,gr
+sepa1tt08Node01,Webserver_MH,conf_mh,8006,virtuser,virtuser@prd,mh
+sepa2tt01Node01,Webserver_MH,conf_mh,8006,virtuser,virtuser@prd,mh
+sepa1tt08Node01,Webserver_BDC,conf_bdc,8007,virtuser,virtuser@prd,bdc
+sepa2tt01Node01,Webserver_BDC,conf_bdc,8007,virtuser,virtuser@prd,bdc
