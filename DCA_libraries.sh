@@ -6,6 +6,8 @@
 : '
 #########
 # history
+# Linux: 20 Iptables Examples For New SysAdmins
+# https://www.cyberciti.biz/tips/linux-iptables-examples.html
 # http://aix4admins.blogspot.sg/2011/08/user-administration-related-files-login.html
 # http://www.unixmantra.com/2013/04/using-traps-in-your-scripts.html
 # Hisotry:
